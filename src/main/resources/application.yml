@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://127.0.0.1:3306/gaming_platform
+    username: root
+    password:
+
+server:
+  port: 8888
+  error:
+    include-message: always
+
